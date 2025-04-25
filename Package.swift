@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "ZFDragableModalTransition",
     platforms: [
-        .iOS(.v7)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -12,6 +12,7 @@ let package = Package(
             targets: ["ZFDragableModalTransition"]
         )
     ],
+    dependencies: [],
     targets: [
         .target(
             name: "ZFDragableModalTransition",
@@ -19,7 +20,7 @@ let package = Package(
             path: "ZFDragableModalTransition",
             exclude: [],
             resources: [],
-            publicHeadersPath: ".",
+            publicHeadersPath: "ZFDragableModalTransition",
             cSettings: [
                 .headerSearchPath("ZFDragableModalTransition")
             ]
