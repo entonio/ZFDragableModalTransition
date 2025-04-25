@@ -15,9 +15,14 @@ let package = Package(
     targets: [
         .target(
             name: "ZFDragableModalTransition",
+            dependencies: [],
             path: "ZFDragableModalTransition",
             exclude: [],
-            publicHeadersPath: "ZFDragableModalTransition"
+            resources: [],
+            publicHeadersPath: ".",
+            cSettings: [
+                .headerSearchPath("ZFDragableModalTransition")
+            ]
         )
     ],
     swiftLanguageVersions: [.v5]
