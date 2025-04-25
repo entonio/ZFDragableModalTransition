@@ -17,7 +17,7 @@ let package = Package(
             name: "ZFDragableModalTransition",
             path: "ZFDragableModalTransition",
             exclude: [],
-            publicHeadersPath: "."
+            publicHeadersPath: "ZFDragableModalTransition"
         )
     ],
     swiftLanguageVersions: [.v5]
